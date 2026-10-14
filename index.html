@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Aerospace engineering portfolio, research, projects, skills and education.">
+  <title>Your Name | Aerospace Engineering Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Go to home">YOUR NAME<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+      <button class="tab active" data-tab="home">Home</button>
+      <button class="tab" data-tab="experience">Work Experience</button>
+      <button class="tab" data-tab="research">Research &amp; Projects</button>
+      <button class="tab" data-tab="skills">Skills</button>
+      <button class="tab" data-tab="education">Education</button>
+    </nav>
+    <div class="header-links">
+      <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noreferrer">GitHub ↗</a>
+      <a href="mailto:YOUR.EMAIL@example.com">Email ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">AEROSPACE ENGINEERING PORTFOLIO</p>
+        <h1>Your Name</h1>
+        <p class="hero-subtitle">Aerospace Engineering Student · CFD · Fluid Mechanics · Thermal Systems</p>
+        <p class="intro">I am interested in understanding complex flow physics and using computational tools to solve aerospace and thermal-engineering problems. I am open to research collaborations, internships and graduate research opportunities.</p>
+        <div class="contact-row">
+          <a href="mailto:YOUR.EMAIL@example.com">✉ YOUR.EMAIL@example.com</a>
+          <span>⌖ Your City, Country</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="assets/CV.pdf" target="_blank" rel="noreferrer">View / Download CV</a>
+          <button class="button secondary" data-jump="research">Explore my work ↓</button>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative aerospace illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="planet"></div><div class="rocket">✦</div>
+        <div class="art-caption"><span class="pulse"></span> CURIOUS BY DESIGN</div>
+      </div>
+    </section>
+
+    <section class="quick-stats" aria-label="Portfolio highlights">
+      <div><strong>01</strong><span>Research interests</span></div>
+      <div><strong>02</strong><span>Engineering projects</span></div>
+      <div><strong>03</strong><span>Technical toolkit</span></div>
+      <div><strong>∞</strong><span>Questions to explore</span></div>
+    </section>
+
+    <section class="panel tab-panel" id="panel-home">
+      <div class="section-heading">
+        <div><p class="eyebrow">START HERE</p><h2>Welcome to my portfolio</h2></div>
+        <p class="section-note">A quick overview of my engineering journey and the work I am excited to share.</p>
+      </div>
+      <div class="feature-grid">
+        <button class="feature-card" data-jump="experience"><span class="feature-icon">↗</span><h3>Work Experience</h3><p>Internships, research roles, responsibilities and outcomes.</p><span class="text-link">Explore experience →</span></button>
+        <button class="feature-card" data-jump="research"><span class="feature-icon">⌘</span><h3>Research &amp; Projects</h3><p>Project summaries, technical notes, results and image galleries.</p><span class="text-link">View projects →</span></button>
+        <button class="feature-card" data-jump="skills"><span class="feature-icon">⚙</span><h3>Skills</h3><p>Simulation tools, programming languages and engineering methods.</p><span class="text-link">See skills →</span></button>
+        <button class="feature-card" data-jump="education"><span class="feature-icon">⌂</span><h3>Education</h3><p>Academic background and relevant coursework.</p><span class="text-link">View education →</span></button>
+      </div>
+    </section>
+
+    <section class="panel tab-panel hidden" id="panel-experience">
+      <div class="section-heading"><div><p class="eyebrow">MY JOURNEY</p><h2>Work Experience</h2></div><p class="section-note">Add internships, research positions, part-time roles or relevant volunteering.</p></div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">MMM YYYY — MMM YYYY</div>
+          <div class="timeline-body"><h3>Role / Internship Title</h3><p class="muted">Organisation · City, Country</p><ul><li>Describe the engineering problem you worked on and your contribution.</li><li>Include tools, methods and measurable results where possible.</li><li>Keep each bullet specific, clear and truthful.</li></ul><div class="tags"><span>OpenFOAM</span><span>CFD</span><span>Post-processing</span></div></div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">MMM YYYY — MMM YYYY</div>
+          <div class="timeline-body"><h3>Second Role / Research Position</h3><p class="muted">Organisation · City, Country</p><ul><li>Replace this example with your responsibilities and achievements.</li><li>Add a link to a report, publication or project if available.</li></ul><div class="tags"><span>MATLAB</span><span>Analysis</span></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel tab-panel hidden" id="panel-research">
+      <div class="section-heading"><div><p class="eyebrow">SELECTED WORK</p><h2>Research &amp; Projects</h2></div><p class="section-note">Each project can include a summary, methods, outcomes, links and as many photos as you need.</p></div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-gallery">
+            <button class="gallery-image" data-full="assets/images/taylor-couette-1.jpg" aria-label="Open Taylor-Couette image"><img src="assets/images/taylor-couette-1.jpg" alt="Taylor-Couette simulation placeholder" onerror="this.parentElement.classList.add('image-placeholder');this.style.display='none'"><span class="placeholder-label">Add simulation image</span></button>
+            <button class="gallery-image small" data-full="assets/images/taylor-couette-2.jpg" aria-label="Open second Taylor-Couette image"><img src="assets/images/taylor-couette-2.jpg" alt="Second simulation image" onerror="this.parentElement.classList.add('image-placeholder');this.style.display='none'"><span class="placeholder-label">Add another view</span></button>
+          </div>
+          <div class="project-content"><div class="project-meta">CFD · OPENFOAM</div><h3>Taylor–Couette Flow Simulation</h3><p>Study flow between rotating cylinders, investigate flow structures and present simulation results. Replace this text with your objective, setup, mesh, boundary conditions and findings.</p><div class="tags"><span>OpenFOAM</span><span>ParaView</span><span>Fluid Mechanics</span></div><div class="project-links"><a href="#" class="placeholder-link">Report / paper ↗</a><a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noreferrer">Code ↗</a></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-gallery">
+            <button class="gallery-image" data-full="assets/images/airfoil-1.jpg" aria-label="Open airfoil image"><img src="assets/images/airfoil-1.jpg" alt="Airfoil CFD placeholder" onerror="this.parentElement.classList.add('image-placeholder');this.style.display='none'"><span class="placeholder-label">Add airfoil contour</span></button>
+            <button class="gallery-image small" data-full="assets/images/airfoil-2.jpg" aria-label="Open second airfoil image"><img src="assets/images/airfoil-2.jpg" alt="Airfoil mesh placeholder" onerror="this.parentElement.classList.add('image-placeholder');this.style.display='none'"><span class="placeholder-label">Add mesh image</span></button>
+          </div>
+          <div class="project-content"><div class="project-meta">AERODYNAMICS · CFD</div><h3>Airfoil / Compressible Flow Study</h3><p>Describe the flow regime, geometry, solver, mesh-independence checks and what the pressure or Mach contours reveal.</p><div class="tags"><span>Meshing</span><span>Compressible Flow</span><span>Post-processing</span></div><div class="project-links"><a href="#" class="placeholder-link">Project details ↗</a></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-gallery single">
+            <button class="gallery-image" data-full="assets/images/thermal-system-1.jpg" aria-label="Open thermal system image"><img src="assets/images/thermal-system-1.jpg" alt="Thermal system project placeholder" onerror="this.parentElement.classList.add('image-placeholder');this.style.display='none'"><span class="placeholder-label">Add CAD / thermal image</span></button>
+          </div>
+          <div class="project-content"><div class="project-meta">THERMAL ENGINEERING</div><h3>Heat Transfer / Thermal System Design</h3><p>Summarise the design challenge, assumptions, governing equations, sizing calculations and validation approach.</p><div class="tags"><span>Heat Transfer</span><span>Thermal Design</span><span>CAD</span></div><div class="project-links"><a href="#" class="placeholder-link">Calculations ↗</a></div></div>
+        </article>
+      </div>
+      <p class="gallery-tip">Tip: add images to <code>assets/images/</code>, then update the image paths in this page. Click any project image to enlarge it.</p>
+    </section>
+
+    <section class="panel tab-panel hidden" id="panel-skills">
+      <div class="section-heading"><div><p class="eyebrow">TOOLS &amp; METHODS</p><h2>Skills</h2></div><p class="section-note">List skills you can confidently discuss in an interview or with a professor.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-symbol">∿</span><h3>Simulation &amp; CFD</h3><div class="skill-list"><span>OpenFOAM</span><span>ANSYS Fluent</span><span>ParaView</span><span>Mesh generation</span></div></article>
+        <article class="skill-card"><span class="skill-symbol">⌘</span><h3>Programming</h3><div class="skill-list"><span>Python</span><span>MATLAB</span><span>Bash / Linux</span><span>Git</span></div></article>
+        <article class="skill-card"><span class="skill-symbol">△</span><h3>Engineering</h3><div class="skill-list"><span>Fluid mechanics</span><span>Heat transfer</span><span>Compressible flow</span><span>Numerical methods</span></div></article>
+        <article class="skill-card"><span class="skill-symbol">▧</span><h3>Design &amp; Communication</h3><div class="skill-list"><span>CAD</span><span>Technical writing</span><span>Data visualisation</span><span>Presentations</span></div></article>
+      </div>
+      <p class="notice">Edit these example skills to match your actual experience. You can indicate proficiency levels if they are useful, but avoid rating yourself in a way you cannot substantiate.</p>
+    </section>
+
+    <section class="panel tab-panel hidden" id="panel-education">
+      <div class="section-heading"><div><p class="eyebrow">ACADEMIC BACKGROUND</p><h2>Education</h2></div><p class="section-note">For professor outreach, prioritise your degree, relevant coursework, academic projects and research preparation.</p></div>
+      <article class="education-card"><div class="education-icon">⌂</div><div><p class="project-meta">EXPECTED GRADUATION: YYYY</p><h3>Bachelor of Technology in Aerospace Engineering</h3><p class="muted">University / Institution · City, Country</p><p><strong>CGPA:</strong> X.XX / 10 (update or remove as appropriate)</p><p><strong>Relevant coursework:</strong> Fluid Mechanics, Thermodynamics, Gas Dynamics, Heat Transfer, Numerical Methods, Aerodynamics.</p><p><strong>Academic highlights:</strong> Add relevant awards, scholarships, competitions or coursework projects.</p></div></article>
+      <div class="education-note"><strong>High school?</strong><p>Usually, you do not need to list 10th- and 12th-grade marks on a research portfolio CV unless they are specifically requested or particularly relevant.</p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div><strong>YOUR NAME<span>.</span></strong><p>Built to share engineering work, research and ideas.</p></div><div class="footer-links"><a href="mailto:YOUR.EMAIL@example.com">Email</a><a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noreferrer">GitHub</a><a href="assets/CV.pdf">CV PDF</a></div><p class="copyright">© <span id="year"></span> Your Name</p></footer>
+
+  <dialog class="lightbox" id="lightbox"><button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button><img id="lightboxImage" src="" alt="Enlarged project image"></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
